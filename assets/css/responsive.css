@@ -1,0 +1,209 @@
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /***** footer start *****/
+    .footer .footer-top .footer-widget.mt25{
+        margin-top: 25px;
+    }
+    /***** footer end *****/
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    /*****  header start *****/
+    .header .topbar .top-left{
+        text-align: center;
+    }
+    .header .topbar .top-left .bar{
+        display: none;
+    }
+    .header .topbar .top-right{
+        text-align: center;
+        margin-top: 10px
+    }
+    .header .topbar .top-right .topbar-social{
+        padding: 0px;
+    }
+    .header .header .navbar .navbar-toggler{
+        background: red;
+        border: 1px solid black;
+        padding: 0px;
+    }
+    /*****  header end *****/
+
+}
+
+@media (min-width: 320px) and (max-width: 575.98px){
+    /*****  header start*****/
+    .header .topbar .top-left{
+        text-align: center;
+    }
+    .header .topbar .top-left .bar{
+        display: none;
+    }
+    .header .topbar .top-right{
+        text-align: center;
+        margin-top: 10px
+    }
+    .header .topbar .top-right .topbar-social{
+        padding: 0px;
+    }
+    .header .main-navbar{
+        display: none;
+    }
+    /*****  header end*****/
+
+}
+
+@media (max-width: 320px){
+    /*****  header start *****/
+    .header .main-navbar{
+        display: none;
+    }
+    .header .topbar .top-left{
+        text-align: center;
+    }
+    .header .topbar .top-left .bar{
+        display: none;
+    }
+    .header .topbar .top-right{
+        text-align: center;
+        padding-top: 5px;
+    }
+    .header .topbar .top-right .topbar-social{
+        padding-left: 0px;
+    }
+    /*****  header end *****/
+
+}
+
+@media screen and (max-width: 1400px) {
+    .service .card-box .content .logo-img {
+        top: 39%;
+    }
+    .about .img-box .text{
+        top: -64px;
+        left: 365px;
+    }
+    .topbar::before{
+        left:29%;
+    }
+    .topbar p{
+        padding-left: 9%;
+    }
+    .banner .slider-content .title h1{
+        font-size: 55px;
+    }
+    .banner .slider-content .title p{
+        font-size: 16px;
+    }
+    .banner .slider-content .single-title p{
+        font-size: 14px;
+    }
+    .carousel-control-next{
+        right: 281px;
+    }
+    .carousel-control-prev{
+        left: 75%;
+    }
+    .choose-us .choose-shape-three img{
+        left: 542px;
+    }
+    .choose-us .shape-two img{
+        left:147px;
+    }
+    .Work-Prosse .data-analysis .img-area img {
+        left: -277px;
+        width: 166px;
+    }
+    .Our-blog .single-bolg .content .sub-title p{
+        width: 80%;
+    }
+    .About-Us .blog-title a{
+        padding-left: 82px;
+    }
+    .our-pricing .single-pricing .pricing-item ul li .check-icon{
+        left: 22%;
+    }
+    .our-pricing .single-pricing .pricing-item ul li .checks{
+        left: 51px;
+    }
+    .our-pricing .single-pricing .text .dollars{
+        left: 81px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .service .card-box .content .logo-img {
+        top: 39%;
+    }
+    .about .img-box .text{
+        top: -64px;
+        left: 331px;
+    }
+    .topbar::before{
+        left:29%;
+    }
+    .topbar p{
+        padding-left: 15%;
+    }
+    .banner .slider-content .title h1{
+        font-size: 50px;
+    }
+    .banner .slider-content .title p{
+        font-size: 16px;
+    }
+    .banner .slider-content .single-title p{
+        font-size: 14px;
+    }
+    .carousel-control-prev{
+        left: 73.5%;
+    }
+     .our-pricing .single-pricing .pricing-item ul li .check-icon{
+        left: 21%;
+    }
+    .our-pricing .single-pricing .pricing-item ul li .checks{
+        left: 47px;
+    }
+    .our-pricing .single-pricing .text .dollars{
+        left: 80px;
+    }
+    .our-pricing .single-pricing .popular-text h6{
+        left: 67%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .service .card-box .content .logo-img {
+        top: 32%;
+    }
+    .our-pricing .single-pricing .pricing-item ul li .check-icon{
+        left: 16%;
+    }
+    .our-pricing .single-pricing .pricing-item ul li .checks{
+        left: 21px;
+    }
+    .our-pricing .single-pricing .text .dollars{
+        left: 54px;
+    }
+    .our-pricing .single-pricing .popular-text h6{
+        left: 67%;
+    }
+    .Our-Team .single-team .content .team-social ul {
+        top: -43px;
+        left: 1px;
+    }
+    .Our-Team .single-team .content .sub-content{
+        top: 207px;
+        left: 26px;
+    }
+    .Our-Team .single-team:hover .content .sub-content {
+        top: 225px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .service .card-box .content .logo-img {
+        top: 32%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .service .card-box .content .logo-img {
+        top: 37%;
+    }
+}
