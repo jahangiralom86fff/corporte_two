@@ -10,13 +10,94 @@
 a{
     text-decoration: none;
 }
+
+/*topbar section start now*/
+.topbar{
+    height: 40px;
+    width: 100%;
+    padding-top: 7px;
+    position: relative;
+    z-index: 2;
+    background-color: #353535;
+}
+.topbar::after{
+   content: url("assets/images/home-page/topbar-bg.png");
+   width: 41%;
+   height: 100%;
+   padding: 0;
+   position: absolute;
+   top:0px;
+   left: 0px;
+}
+.topbar .desc p{
+    position: relative;
+    z-index: 5;
+    font-size: 15px;
+    color:#ffffff;
+    font-weight: 400;
+    font-family:"Roboto",sans-serif;
+}
+.topbar .topbar-social ul{
+    float: right;
+}
+.topbar .topbar-social ul li{
+    list-style-type: none;
+    float:left;
+    margin-top: 2px;
+    margin-right:17px;
+}
+.topbar .topbar-social ul li a{
+    font-size: 16px;
+    color:#ffffff;
+    transition: all 500ms ease-in;
+}
+.topbar .topbar-social ul li a:hover{
+    color:#ff6116;
+}
+.topbar .topbar-menu{
+    position: relative;
+}
+.topbar .topbar-menu ul{
+    position: absolute;
+    top: 1px;
+    left: 31%;
+}
+.topbar .topbar-menu ul li{
+    list-style-type: none;
+    float: left;
+    margin-left:20px;
+}
+.topbar .topbar-menu ul li a{
+    color:#ffffff;
+    font-size: 15px;
+    font-family:"Roboto",sans-serif;
+    position: relative;
+}
+.topbar .topbar-menu ul li a::before{
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 1px;
+    background-color: #ffffff;
+    transform: rotate(116deg);
+    left: -17px;
+    top: 9px;
+}
+.topbar .topbar-menu ul li:first-child a::before{
+    display: none;
+}
+/*topbar section End now*/
+
 /******* main-menu start *******/
 .header .main-navbar{
     padding: 20px 0px;
     background-color: #ffffff;
     width: 100%;
     position: fixed;
-    z-index: 54;
+    top:40px;
+    left: 0;
+    right: 0;
+    z-index: 60;
     box-shadow: 0 0 10px 0 rgba(85, 80, 80, 0.4);
 }
 /* MENU text CSS */
@@ -278,7 +359,7 @@ a{
     background-color: #ff6116;
     opacity: .8;
 }
-/*==============  header end ==============*/
+/*==============  Navbar end ==============*/
 
 /*banner section start now*/
 .banner{
@@ -1611,7 +1692,13 @@ a{
     z-index: 2;
 }
 .Work-Prosse .data-analysis .sub-analysis .single-alalysis .logo-sign{
-    padding:8px 8px;
+    width:50px;
+    height: 50px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    align-items: center;
     border-radius: 50%;
     border:2px solid red;
     font-size: 24px;
@@ -5360,7 +5447,6 @@ a{
     font-size: 16px;
     font-family: "Roboto",sans-serif;
     color:#ffffff;
-    font-family: var(--Rajdhani);
 }
 .copy-right .brands-text .text{
      text-decoration: none;
@@ -5369,17 +5455,20 @@ a{
     font-family: "Roboto",sans-serif;
     color:#818592;
 }
-.copy-right .terms{
-    display:flex;
-    justify-content: right;
-    margin-top:-28px;
+.copy-right .fotter_menu .fotter-nav{
+    padding:0px;
+    float: right;
 }
-.copy-right .terms .text{
-    text-align: right;
-    padding-top:-50px;
-    display:inline-block;
-    color:#ffffff;
+.copy-right .fotter_menu .fotter-nav ul li{
+    list-style-type: disc;
+    float: left;
+    margin-right: 15px;
+}
+.copy-right .fotter_menu .fotter-nav ul li a{
+    font-size: 16px;
     font-family:"Roboto",sans-serif;
+    color:#ffffff;
+    position: relative;
 }
 #scrollUp {
     width:45px;

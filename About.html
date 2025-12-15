@@ -13,70 +13,194 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
         <!--owl corusel css-->
         <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
+        <!--navbar start-->
+        <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/meanmenu.min.css">
+        <!--navbar End-->
         <!--css file-->
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
         <!--css file end-->
     </head>
     <body>
-        <div class="topbar">
+        <!--topbar section start-->
+        <section class="topbar">
+            <div class="shape"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p>Welcome to Soft-Tect Busines Solutions</p>
+                        <div class="desc">
+                            <p>Welcome to Soft-Tect Busines Solutions</p>
+                        </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="support-tobbar">
+                        <div class="topbar-menu">
                             <ul>
-                                <li><a href="#">Help /</a></li>
-                                <li><a href="#">support /</a></li>
-                                <li><a href="#">contacts</a></li>
+                                <li><a href="#">Help </a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Contact</a></li>
+                                
                             </ul>
                         </div>
-                        <div class="icon-tobar">
+                        <div class="topbar-social">
                             <ul>
                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--navbar section start now-->
-        <div class="topnav" id="myTopnav">
-            <a href="home.html" class="active">Home</a>
-            <a href="#" class="imgbox">
-                <img src="assets/images/home-page/Home.png" alt="shape">
-                <span class="toko-text">TOKO</span>
-            </a>
-            <div id="dropdown-navbar" class="dropdown-navbar">
-                <button class="dropbtn">Pages 
-                <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="About.html">About</a>
-                    <a href="blog-details.html">Blog Details</a>
-                    <a href="project.html">project</a>
-                    <a href="pricing.html">Cart</a>
-                    <a href="carer.html">Carer</a>
-                    <a href="home.html">Home</a>
+        </section>
+        <!--topbar section End-->
+
+        <!----- header start ----->
+        <header class="header">
+            <!----- navbar start  ----->
+            <section class="main-navbar d-sm-none d-md-none d-md-block d-lg-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-2">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="assets/images/home-page/home-logo.png" alt="logo">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- MAIN MENU -->
+                        <div class="col-lg-9 col-md-10 d-flex align-items-center justify-content-end">
+                            <nav class="main_menu">
+                                <ul class="sub-menu">
+                                    <li><a href="home.html">Home</a></li>
+                                    <li><a href="About.html">About</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="service.html">Service</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="service.html">Service</a></li>
+                                            <li><a href="service-details.html">Service Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">Project</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="project.html">Project</a></li>
+                                            <li><a href="project-details.html">Project Details</a></li>
+                                        </ul>
+                                    </li>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">Pages</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="Faq.html">Faq</a></li>
+                                            <li><a href="pricing.html">Pricing</a></li>
+                                            <li><a href="carer.html">Carer</a></li>
+                                            <li><a href="error.html">Erorr</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="blog.html">Blog</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <span class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                                                        <img src="assets/images/home-page/home-logo.png" alt="logo">
+                                                    </h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form action="#" class="search-form">
+                                                        <input type="text" name="name" id="name" placeholder="Type your Keywored and hit" required>
+                                                        <button type="submit" name="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--modal End-->
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- MOBILE MENU Logo AREA -->
+            <div class="mobile_logo_area d-sm-block d-md-block d-lg-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="mobile_menu_logo text-center">
+                                <a href="index.html" title="logo">
+                                    <img src="assets/images/home-page/home-logo.png" alt="Logo">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <a href="service.html">Sevices</a>
-            <a href="#">Project</a>
-            <a href="blog.html">Blog</a>
-            <a href="#">contact us</a>
-            <div class="btn-area">
-                <a href="#" class="call-us"><span class="call-btns"><i class="fa-solid fa-magnifying-glass"></i></span></a>
-                <a href="#" class="talks-btn"><i class="fa-solid fa-bars"></i></a>
+            <!-- MOBILE MENU AREA -->
+            <div class=" d-sm-block d-md-block d-lg-none">
+                <div class="menu_area mobile-menu">
+                    <nav class="mobile_menu">
+                        <ul class="sub-menu">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="About.html">About</a></li>
+                            <li class="menu-item-has-children">
+                            <a href="blog.html">Blog</a>
+                                <ul class="sub-menu">
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Pages</a>
+                                <ul class="sub-menu">
+                                    <li><a href="Faq.html">Faq</a></li>
+                                    <li><a href="pricing.html">Pricing</a></li>
+                                    <li><a href="carer.html">Carer</a></li>
+                                    <li><a href="error.html">Error</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="project.html">Project</a>
+                                <ul class="sub-menu">
+                                    <li><a href="project.html">Project</a></li>
+                                    <li><a href="project-details.html">Project Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="service.html">Service</a>
+                                <ul class="sub-menu">
+                                    <li><a href="service.html">Service</a></li>
+                                    <li><a href="service-details.html">Service Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
-        <div style="clear:both"></div>
-        <!--navbar section End now-->
+            <!-- END MOBILE MENU AREA  -->
+        </header>
+        <!----- header end ----->
 
         <!--about-us section start-->
         <section class="About-Us">
@@ -531,16 +655,28 @@
             </div>
         </div>
         <!--fotter section End now-->
-
+        
         <!--copy Right start-->
         <section class="copy-right">
             <div class="container">
-                <div class="brands-text">
-                    <span class="text">© 2025 cleaning.</span> 
-                    <a href="https://www.hitechparks.com/">hitechparks</a>
-                </div>
-                <div class="terms">
-                    <a href="#" class="text">Teams & Condition . Services . Careers</a>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="brands-text">
+                            <span class="text">© 2025 cleaning.</span> 
+                            <a href="https://www.hitechparks.com/">hitechparks</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="fotter_menu">
+                            <ul class="fotter-nav">
+                                <ul>
+                                    <li><a href="#">Teams & Condition</a></li>
+                                    <li><a href="#">. Services</a></li>
+                                    <li><a href="#">. Careers</a></li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -555,6 +691,11 @@
         <!--query js-->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="assets/js/owl.carousel.min.js"></script>
+        <!--navbar js-->
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <script src="assets/js/all.min.js"></script>
+        <script src="assets/js/navbar.js"></script>
+        <!--navbar js End-->
         <!--owl crousel-->
         <script src="assets/js/progress-bar.js"></script>
         <script src="assets/js/corusels.js"></script>
@@ -562,8 +703,5 @@
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
         <!--bootstrp js-->
         <script src="assets/js/bootstrap.min.js"></script>
-        <!--navbar js-->
-        <script src="assets/js/navbar.js"></script>
-
     </body>
 </html>
