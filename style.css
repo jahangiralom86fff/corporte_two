@@ -5471,22 +5471,24 @@ a{
     position: relative;
 }
 #scrollUp {
-    width:45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
     text-align: center;
     bottom: 40px;
     cursor: pointer;
     position:fixed;
-    font-size: 18px;
     right: 20px;
     top:90%;
-    background-color: red;
+    background-color: #ff6116;
     z-index: 999;
-    border-radius: 50px 50px 50px 50px;   
+    border-radius: 50%;
     color:#ffffff;
-    padding-top: 10px;
     transform: rotate(180deg);
-    font-size: 18px;
+    font-size: 30px;
+    padding-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*home page css End*/
 
