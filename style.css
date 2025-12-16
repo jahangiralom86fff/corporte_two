@@ -1,5 +1,5 @@
 /*import font*/
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.service .card-box .content .single-title googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 /*import End*/
 *{
     padding: 0px;
@@ -98,7 +98,17 @@ a{
     left: 0;
     right: 0;
     z-index: 60;
+    transition: top 0.2s ease;
     box-shadow: 0 0 10px 0 rgba(85, 80, 80, 0.4);
+}
+.main-navbar .sticky{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.15);
 }
 /* MENU text CSS */
 .header .main_menu ul{
@@ -547,7 +557,7 @@ a{
 /*feature section start now*/
 .feature{
     width:100%;
-    padding: 110px 0px;
+    padding: 80px 0px;
     background: url("assets/images/home-page/feature-bg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -1009,8 +1019,8 @@ a{
 /*service section start now*/
 .service{
     width:100%;
-    padding:100px 0px;
-    background-color:#fff9f6;
+    padding: 70px 0px;
+    background-color: #fff0e9;
     overflow: hidden;
     position: relative;
 }
@@ -1127,7 +1137,7 @@ a{
 .service .card-box .content .title-text:hover{
     color:#ff6116;
 }
-.service .card-box .content .single-title h5{
+.service .card-box .content .single-title .desc{
     font-size: 16px;
     color:#616161;
     padding-top:8px;
@@ -1142,11 +1152,11 @@ a{
     padding-top:15px;
     display: inline-block;
     position: relative;
-    transition: all 400ms ease-in;
+    transition: all 500ms ease;
 }
 .service .card-box .content .read-more-btn:hover{
     color:#ff6116;
-    transform: translateX(14px);
+    transform: translateX(20px);
 }
 .service .card-box .content .read-more-btn .angels-btn{
     position: absolute;
@@ -1537,7 +1547,7 @@ a{
     align-items: center;
     margin-top:8px;
 }
-.choose-us .img-box img{
+.choose-us .img-box a img{
     position: relative;
     z-index: 2;
 }
@@ -1572,6 +1582,40 @@ a{
     top: 138px;
     left: -111px;
     border-radius: 8px;
+}
+.choose-us .img-box .main-outer{
+    position: absolute;
+    top:103%;
+    width: 100px;
+    height: 4px;
+    background-color: #353535;
+    transition: all 500ms ease;
+    right: 95px;
+}
+.choose-us .img-box:hover .main-outer{
+    width: 200px;
+}
+.choose-us .img-box .main-outer::after{
+    content: '';
+    width: 4px;
+    height: 159px;
+    background-color: #353535;
+    position: absolute;
+    top: -156px;
+    right: -1px;
+}
+.choose-us .img-box .main-outer::before{
+    content: '';
+    width: 4px;
+    height: 159px;
+    background-color: #353535;
+    position: absolute;
+    top: -156px;
+    right: -1px;
+    transition: all 500ms ease;
+}
+.choose-us .img-box:hover .main-outer::before{
+    top: -221px;
 }
 /*choose us End*/
 
@@ -2218,12 +2262,20 @@ a{
     width: 6px;
     height: 6px;
     background-color: #ff6116;
-    border-radius: 50%;
+    border-radius: 5px;
     margin: 0px 5px;
 }
-.Testimonials .owl-carousel .owl-dot:active{
+.Testimonials .owl-carousel .owl-dot.active{
     width: 30px;
     border-radius: 10px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  display: none;
 }
 /*Testimonials End*/
 
@@ -2891,7 +2943,12 @@ a{
     margin:5px 4px;
 }
 .Our-Team .single-team .content .team-social ul li a{
-    padding:8px 8px;
+    width:32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
     background-color:#ff6116;
     border-radius: 3px;
     color:#ffffff;
@@ -3752,9 +3809,25 @@ a{
     box-shadow:0px 0px 10px rgba(50, 47, 47, 0.1);
     border-radius:6px;
     transition: all 500ms ease-in;
+    overflow: hidden;
+    z-index: 1;
 }
-.join-team .join-social:hover .sub-social{
-    background: #ff6116;
+.join-team .join-social .sub-social::after{
+    content:'';
+    width: 100%;
+    height: 100%;
+    background-color:#ff6116;
+    top: -223px;
+    left:0px;
+    position: absolute;
+    border-radius:6px;
+    z-index: -1;
+    transition: all 500ms ease;
+}
+.join-team .join-social:hover .sub-social::after{
+    top: 0px;
+}
+.join-team .join-social .sub-social{
     transform: translateY(15px);
     box-shadow:0px 0px 15px rgba(50, 47, 47, 0.1);
 }
@@ -4594,6 +4667,7 @@ a{
 .isotope .filter-layout .single-item{
     margin: 15px;
     position:relative;
+    overflow: hidden;
 }
 .isotope .filter-layout .single-item::after{
     content:'';
@@ -4622,14 +4696,14 @@ a{
     padding-bottom: 15px;
     background-color:#353535;
     z-index: 2;
-    top:210px;
+    top: 323px;
     left:67px;
     border-radius: 6px;
     transition: all 500ms ease-in-out;
     visibility: hidden;
 }
 .isotope .filter-layout .single-item:hover .content{
-    top:191px;
+    top: 144px;
     visibility: visible;
 }
 .isotope .filter-layout .single-item .content p{
@@ -4709,7 +4783,8 @@ a{
     font-size: 16px;
     font-family:"Roboto",sans-serif;
     width:90%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top:10px;
 }
 .Services-details .details-contact{
     width: 100%;
@@ -4809,16 +4884,16 @@ a{
     padding-top:15px;
     display: inline-block;
     position: relative;
-    transition: all 400ms ease-in;
+    transition: all 500ms ease;
 }
 .Services-details .card-box .content .read-more-btn:hover{
     color:#ff6116;
-    transform: translateX(14px);
+    transform: translateX(20px);
 }
 .Services-details .card-box .content .read-more-btn .angels-btn{
     position: absolute;
     top:20px;
-    left:72px;
+    left:74px;
     transition: all 500ms ease-in;
 }
 .Services-details .card-box .content .read-more-btn:hover .angels-btn{
@@ -5110,8 +5185,8 @@ a{
     margin-top:40px;
 }
 .Services-details .contacts input{
-    width:165px;
-    height: 52px;
+    width: 70%;
+    height: 40px;
     background-color:#ffffff;
     position: relative;
     z-index: 1;
@@ -5129,15 +5204,15 @@ a{
 }
 .Services-details .contacts .contacts-btn button{
     z-index: 1;
-    width:60px;
-    height: 52px;
+    width: 10%;
+    height: 40px;
     outline: none;
     border:none;
     background-color:#ff6116;
     float: right;
     position: absolute;
     right:103px;
-    top:350px;
+    top:340px;
     color:#ffffff;
     font-size: 16px;
     border-radius:0px 4px 4px 0px;
@@ -5166,12 +5241,12 @@ a{
     border-radius: 2px;
     position: relative;
     transition: all 500ms ease-in;
-}
-.Services-details .tags .tags-items:hover{
-    color:#ffffff;
     z-index: 1;
 }
-.Services-details .tags .tags-items::after{
+.Services-details .tags .tags-items:hover{
+    color: #ffffff;
+}
+.Services-details .tags .tags-items::before{
     content: '';
     position: absolute;
     width: 100%;
@@ -5182,11 +5257,11 @@ a{
     border-radius: 2px;
     transform: scale(0,1);
     transition: all 400ms ease-in;
-    z-index: 1;
+    z-index: -1;
 }
-.Services-details .tags .tags-items:hover::after{
+.Services-details .tags .tags-items:hover::before{
     transform: scale(1,1);
-    z-index:-1;
+    color:#ffffff;
 }
 .Services-details .tags-title{
     font-size: 16px;
