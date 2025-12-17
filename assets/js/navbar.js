@@ -19,4 +19,3 @@ function updateNavbar() {
 
 window.addEventListener("load", updateNavbar);
 window.addEventListener("scroll", updateNavbar);
-; 
