@@ -6,15 +6,21 @@ $('.carousel-one').owlCarousel({
   autoplayTimeout:1500,
   autoplayHoverPause:true,
   responsive:{
-      0:{
-          items:1
-      },
-      800:{
-          items:2
-      },
-      1500:{
-          items:3
-      }
+    0:{
+        items:1
+    },
+    800:{
+        items:2
+    },
+    1300:{
+        items:3
+    },
+    1400:{
+        items:3
+    },
+    1500:{
+        items:3
+    }
   }
 })
 

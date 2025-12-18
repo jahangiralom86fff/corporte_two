@@ -1,4 +1,448 @@
 
+@media (max-width: 320px){
+    /*****  header start *****/
+    .header .main-navbar{
+        display: none;
+    }
+    .header .topbar .top-left{
+        text-align: center;
+    }
+    .header .topbar .top-left .bar{
+        display: none;
+    }
+    .header .topbar .top-right{
+        text-align: center;
+        padding-top: 5px;
+    }
+    .header .topbar .top-right .topbar-social{
+        padding-left: 0px;
+    }
+    /*****  header end *****/
+}
+/*navbar section End*/
+@media screen and (max-width: 1500px){
+    /*home page start*/
+    .banner .slider-content .title p{
+        margin-top: 60px;
+    }
+    .banner .shape .slider-shape{
+        top: 133px;
+        left: 841px;
+    }
+    .carousel-control-prev {
+        left: 75%;
+    }
+    .about .img-box .text{
+        top: -72px;
+        left: 392px;
+    }
+    /*End==*/
+}
+@media screen and (max-width: 1400px) {
+    /*Home page start*/
+    .topbar .desc p{
+        margin-left: -46px;
+    }
+    .topbar .topbar-menu ul{
+        left: 20%;
+    }
+    /*topbar End*/
+    .service .card-box .content .logo-img {
+        top: 39%;
+    }
+    .about .img-box .text{
+        top: -64px;
+        left: 365px;
+    }
+    /*banner section*/
+    .banner{
+        margin-top: 83px;
+    }
+    .banner .slider-content .title h1{
+        font-size: 55px;
+    }
+    .banner .slider-content .title p{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .banner .slider-content .single-title p{
+        font-size: 14px;
+    }
+    .banner .shape .slider-shape{
+        top: -20px;
+        transform: rotate(1deg);
+    }
+    /*banner section End*/
+    .carousel-control-next{
+        right: 281px;
+    }
+    .carousel-control-prev{
+        left: 76%;
+    }
+    .choose-us .choose-shape-three img{
+        left: 542px;
+    }
+    .choose-us .shape-two img{
+        left:147px;
+    }
+    .Work-Prosse .data-analysis .img-area img {
+        left: -277px;
+        width: 166px;
+    }
+    .Our-blog .single-bolg .content .sub-title p{
+        width: 80%;
+    }
+    .About-Us .blog-title a{
+        padding-left: 82px;
+    }
+    .media .shape-img img{
+        top: -461px;
+    }
+    /*pricing section*/
+    .our-pricing .single-pricing .pricing-item ul li .check-icon{
+        left: 22%;
+    }
+    .our-pricing .single-pricing .pricing-item ul li .checks{
+        left: 51px;
+    }
+    .our-pricing .single-pricing .text .dollars{
+        left: 81px;
+    }
+    /*pricing End*/
+    /*chosse us*/
+    .choose-us .img-box .main-outer{
+        right: 50px;
+    }
+    .Our-experience .exprence-group .imgbox-2 img{
+        left: 245px;
+    }
+    /*End===*/
+}
+@media screen and (max-width: 1300px) {
+    /*home page start*/
+    /*topbar section start*/
+    .topbar .desc p{
+        margin-left: -76px;
+    }
+    .topbar .topbar-menu ul{
+        left: 20%;
+    }
+    /*topbar End*/
+    .banner{
+        margin-top: 83px;
+    }
+    .service .card-box .content .logo-img {
+        top: 39%;
+    }
+    .about .img-box .text{
+        top: -64px;
+        left: 331px;
+    }
+    .topbar::before{
+        left:29%;
+    }
+    .topbar p{
+        padding-left: 15%;
+    }
+    .banner .slider-content .title h1{
+        font-size: 50px;
+    }
+    .banner .slider-content .title p{
+        font-size: 16px;
+        margin-top: 78px;
+    }
+    .banner .slider-content .single-title p{
+        font-size: 14px;
+    }
+    .banner .shape .slider-shape{
+        top: -12px;
+        transform: rotate(1deg);
+        left: 800px;
+    }
+    .carousel-control-prev{
+        left: 74.2%;
+    }
+     .our-pricing .single-pricing .pricing-item ul li .check-icon{
+        left: 21%;
+    }
+    .our-pricing .single-pricing .pricing-item ul li .checks{
+        left: 47px;
+    }
+    .our-pricing .single-pricing .text .dollars{
+        left: 80px;
+    }
+    .our-pricing .single-pricing .popular-text h6{
+        left: 67%;
+    }
+    .choose-us .choose-shape-three img{
+        left: 536px;
+    }
+    /*End===*/
+}
+@media screen and (max-width: 1200px) {
+    /*home page*/
+    .topbar .desc p{
+        margin-left: -66px;
+    }
+    .topbar .topbar-menu ul{
+        left: 10%;
+    }
+    /*topbar End*/
+    .banner{
+        margin-top: 83px;
+    }
+    .service .card-box .content .logo-img {
+        top: 32%;
+    }
+    .our-pricing .single-pricing .pricing-item ul li .check-icon{
+        left: 16%;
+    }
+    .our-pricing .single-pricing .pricing-item ul li .checks{
+        left: 21px;
+    }
+    .our-pricing .single-pricing .text .dollars{
+        left: 54px;
+    }
+    .our-pricing .single-pricing .popular-text h6{
+        left: 67%;
+    }
+    .Our-Team .single-team .content .team-social ul {
+        top: -43px;
+        left: 1px;
+    }
+    .Our-Team .single-team .content .sub-content{
+        top: 207px;
+        left: 26px;
+    }
+    .Our-Team .single-team:hover .content .sub-content {
+        top: 225px;
+    }
+    .banner .slider-content .title p{
+        font-size: 16px;
+        margin-top: 100px;
+    }
+    .carousel-control-prev{
+        left: 75%;
+        top: 184px;
+    }
+    .carousel-control-next {
+        right: 241px;
+        top: 248px;
+    }
+    .banner .shape .slider-shape {
+        position: absolute;
+        top: -148px;
+        left: 778px;
+        transform: rotate(-2deg);
+    }
+    .Our-experience .exprence-group .imgbox-2 img {
+        left: 180px;
+    }
+    .choose-us .img-box a img{
+        width: 340px;
+    }
+    .choose-us .img-box .side-left-title .sub-bussniess{
+        top:92px;
+        font-size: 16px;
+        width: 148px;
+    }
+    .choose-us .img-box .main-outer {
+        right: 40px;
+    }
+    .choose-us .img-box .underlines{
+        left: 32px;
+    }
+    .choose-us .shape-left img {
+        left: -488px;
+    }
+    .choose-us .choose-shape-three img{
+        left: 476px;
+    }
+    .choose-us .sub-title h5{
+        font-size: 30px;
+    }
+    .choose-us .single-titles h6{
+        margin-bottom: 0px;
+    }
+    .choose-us .single-titles {
+        margin: 17px 0px 0px 46px;
+    }
+    .Work-Prosse .data-analysis .sub-analysis{
+        width: 130px;
+        height: 130px;
+    }
+    .Work-Prosse .data-analysis .img-area img {
+        left: -231px;
+        width: 140px;
+        top: -64px;
+    }
+    .Work-Prosse .data-analysis .alalysis-text h5{
+        font-size: 20px;
+    }
+    .Work-Prosse .data-analysis .subs-text a{
+        font-size: 14px;
+    }
+    .Our-blog .single-bolg .content .sub-title p {
+        width: 90%;
+        font-size: 18px;
+    }
+    .Our-blog .single-bolg .content .date p{
+        left: 63%;
+    }
+    .counters .text h3::before{
+        left: -18px;
+    }
+    .about .about-play .img-box{
+        margin-left: 66px;
+        margin-top: 53px;
+    }
+    .about .about-play .img-box img{
+       width: 150px;
+       height: 150px;
+    }
+    .about .about-play .img-box .play-btn{
+        top: 58px;
+        left: 56px;
+    }
+    .about h2{
+        font-size: 30px;
+    }
+    .about .desc p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .about .desc .single-text{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .about .terget ul li a{
+        font-size: 17px;
+    }
+    .feature .feature-item .feature-list .feature-text a{
+        font-size: 18px;
+    }
+    .Our-experience .single-title h3{
+        font-size: 30px;
+    }
+    .Our-experience .sub-title{
+        font-size: 14px;
+        margin: 14px 0px;
+    }
+    .media .shape-img img{
+        top: -421px;
+        left: -266px;
+    }
+    /*End===*/
+}
+@media screen and (max-width: 1100px) {
+    /*home page start*/
+    .banner{
+        margin-top: 83px;
+    }
+    .service .card-box .content .logo-img {
+        top: 32%;
+    }
+    .carousel-control-prev{
+        left: 75%;
+        top: 207px;
+    }
+    .carousel-control-next {
+        right: 202px;
+        top: 271px;
+    }
+    .banner .slider-content .title h1{
+        font-size: 40px;
+    }
+    .banner .shape .slider-shape {
+        position: absolute;
+        top: -148px;
+        left: 645px;
+        transform: rotate(-2deg);
+    }
+    .banner .slider-content .title p {
+        font-size: 16px;
+        margin-top: 130px;
+    }
+    .choose-us .choose-shape-three img {
+        left: 422px;
+    }
+    .media .video-btn .plays-btn{
+        width: 110px;
+        height: 110px;
+    }
+    .media .title h4{
+        font-size: 30px;
+    }
+    .media .title .single-title{
+        font-size: 14px;
+    }
+    .media .overlay{
+        top: 1px;
+    }
+    .media .shape-img img {
+        top: -497px;
+        left: -296px;
+    }
+    /*End===*/
+}
+@media screen and (max-width: 1000px) {
+    /*home page start*/
+    .service .card-box .content .logo-img {
+        top: 37%;
+    }
+    .carousel-control-prev{
+        left: 75%;
+        top: 184px;
+    }
+    .carousel-control-next {
+        right: 196px;
+        top: 248px;
+    }
+    .banner .shape .slider-shape {
+        position: absolute;
+        top: -148px;
+        left: 615px;
+        transform: rotate(-2deg);
+    }
+    /*End=====*/
+}
+@media screen and (max-width: 992px){
+    /*home page*/
+    .topbar{
+        display: none;
+    }
+    .header .main-navbar{
+        top: 0px;
+    }
+    .banner {
+        margin-top: 44px;
+    }
+    .banner .slider-content .title h1 {
+        font-size: 40px;
+    }
+    .banner .slider-content .title p{
+        margin-top: 146px;
+    }
+    .banner .shape .slider-shape {
+        position: absolute;
+        top: -148px;
+        left: 615px;
+        transform: rotate(-2deg);
+    }
+    .Work-Prosse .data-analysis .img-area img{
+        display: none;
+    }
+    .Work-Prosse .data-analysis .sub-analysis {
+        width: 130px;
+        height: 130px;
+    }
+    .Work-Prosse .data-analysis .subs-text a {
+        font-size: 12px;
+    }
+    /*End=====*/
+}
+
+/*navbar section for*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
     /***** footer start *****/
     .footer .footer-top .footer-widget.mt25{
@@ -52,158 +496,4 @@
     /*****  header end*****/
 
 }
-
-@media (max-width: 320px){
-    /*****  header start *****/
-    .header .main-navbar{
-        display: none;
-    }
-    .header .topbar .top-left{
-        text-align: center;
-    }
-    .header .topbar .top-left .bar{
-        display: none;
-    }
-    .header .topbar .top-right{
-        text-align: center;
-        padding-top: 5px;
-    }
-    .header .topbar .top-right .topbar-social{
-        padding-left: 0px;
-    }
-    /*****  header end *****/
-
-}
-
-@media screen and (max-width: 1400px) {
-    .service .card-box .content .logo-img {
-        top: 39%;
-    }
-    .about .img-box .text{
-        top: -64px;
-        left: 365px;
-    }
-    .topbar::before{
-        left:29%;
-    }
-    .topbar p{
-        padding-left: 9%;
-    }
-    .banner .slider-content .title h1{
-        font-size: 55px;
-    }
-    .banner .slider-content .title p{
-        font-size: 16px;
-    }
-    .banner .slider-content .single-title p{
-        font-size: 14px;
-    }
-    .carousel-control-next{
-        right: 281px;
-    }
-    .carousel-control-prev{
-        left: 75%;
-    }
-    .choose-us .choose-shape-three img{
-        left: 542px;
-    }
-    .choose-us .shape-two img{
-        left:147px;
-    }
-    .Work-Prosse .data-analysis .img-area img {
-        left: -277px;
-        width: 166px;
-    }
-    .Our-blog .single-bolg .content .sub-title p{
-        width: 80%;
-    }
-    .About-Us .blog-title a{
-        padding-left: 82px;
-    }
-    .our-pricing .single-pricing .pricing-item ul li .check-icon{
-        left: 22%;
-    }
-    .our-pricing .single-pricing .pricing-item ul li .checks{
-        left: 51px;
-    }
-    .our-pricing .single-pricing .text .dollars{
-        left: 81px;
-    }
-}
-@media screen and (max-width: 1300px) {
-    .service .card-box .content .logo-img {
-        top: 39%;
-    }
-    .about .img-box .text{
-        top: -64px;
-        left: 331px;
-    }
-    .topbar::before{
-        left:29%;
-    }
-    .topbar p{
-        padding-left: 15%;
-    }
-    .banner .slider-content .title h1{
-        font-size: 50px;
-    }
-    .banner .slider-content .title p{
-        font-size: 16px;
-    }
-    .banner .slider-content .single-title p{
-        font-size: 14px;
-    }
-    .carousel-control-prev{
-        left: 73.5%;
-    }
-     .our-pricing .single-pricing .pricing-item ul li .check-icon{
-        left: 21%;
-    }
-    .our-pricing .single-pricing .pricing-item ul li .checks{
-        left: 47px;
-    }
-    .our-pricing .single-pricing .text .dollars{
-        left: 80px;
-    }
-    .our-pricing .single-pricing .popular-text h6{
-        left: 67%;
-    }
-}
-@media screen and (max-width: 1200px) {
-    .service .card-box .content .logo-img {
-        top: 32%;
-    }
-    .our-pricing .single-pricing .pricing-item ul li .check-icon{
-        left: 16%;
-    }
-    .our-pricing .single-pricing .pricing-item ul li .checks{
-        left: 21px;
-    }
-    .our-pricing .single-pricing .text .dollars{
-        left: 54px;
-    }
-    .our-pricing .single-pricing .popular-text h6{
-        left: 67%;
-    }
-    .Our-Team .single-team .content .team-social ul {
-        top: -43px;
-        left: 1px;
-    }
-    .Our-Team .single-team .content .sub-content{
-        top: 207px;
-        left: 26px;
-    }
-    .Our-Team .single-team:hover .content .sub-content {
-        top: 225px;
-    }
-}
-@media screen and (max-width: 1100px) {
-    .service .card-box .content .logo-img {
-        top: 32%;
-    }
-}
-@media screen and (max-width: 1000px) {
-    .service .card-box .content .logo-img {
-        top: 37%;
-    }
-}
+/*navbar section End now*/

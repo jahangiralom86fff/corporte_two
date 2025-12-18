@@ -1608,15 +1608,13 @@ a{
 }
 .choose-us .img-box .side-left-title .sub-bussniess{
     position: absolute;
-    width: 195px;
-    height: 116px;
+    padding: 20px;
+    width: 156px;
     background-color: var(--secondary);
     font-size: 20px;
     font-weight: bold;
     text-transform: capitalize;
-    padding-top: 28px;
     color: var(--color);
-    padding-left: 41px;
     top: 138px;
     left: -111px;
     border-radius: 8px;
@@ -1746,9 +1744,6 @@ a{
     position: absolute;
     transition: all 0.1s ease;
 }
-.Work-Prosse .data-analysis:hover .sub-analysis::before{
-    background-color: transparent;
-}
 .Work-Prosse .data-analysis .sub-analysis::after{
     content: '';
     width: 75%;
@@ -1782,7 +1777,7 @@ a{
     line-height: 1;
     align-items: center;
     border-radius: 50%;
-    border: 2px solid var(--secondary);
+    border: 3px solid var(--secondary);
     font-size: 24px;
     color: var(--secondary);
     transition: all 400ms ease;
@@ -1803,9 +1798,11 @@ a{
 }
 .Work-Prosse .data-analysis .subs-text a{
     font-size: var(--fs-size);
-    color:#6f6f6e;
     font-family: var(--primary-font);
-    text-transform: capitalize;
+    font-weight: 400;
+    color: #616161;
+    text-align: center;
+    line-height: 1.5;
 }
 .Work-Prosse .data-analysis .img-area{
     position: relative; 
@@ -2019,18 +2016,14 @@ a{
 .Our-experience .contacts-us-btn{
     margin-top: 45px;
     display: inline-block;
-    width: 155px;
-    height: 52px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 10px 20px;
     border-radius: 5px;
     background-color: var(--secondary);
     color: var(--color);
     font-size: var(--fs-size);
     font-weight: bold;
     text-transform: capitalize;
-    position:relative;
+    position: relative;
     transition: all 500ms ease-in;
     overflow: hidden;
     z-index: 1;
@@ -2040,27 +2033,30 @@ a{
     content: "";
     width: 100%;
     height: 100%;
-    background-color: var(--das-black);
-    left:-162px;
+    background-color: rgba(255,255,255,0.25);
+    left: -162px;
+    top: 0px;
     color: var(--color);
-    border-radius:5px;
-    z-index:-1;
+    border-radius: 5px;
+    z-index: -1;
     transition: all 500ms ease-in;
 }
 .Our-experience .contacts-us-btn:hover::after{
     left: 0px;
 }
 .Our-experience .contacts-us-btn .contacts-arraw{
-    margin-top: 0px;
-    margin-left: 4px;
     font-size: var(--fs-size);
+    display: inline-block;
+    margin-left: 6px;
+    line-height: 1.5;
+    vertical-align: middle;
 }
 /*Our-experience End*/
 
 /*counters start*/
 .counters{
     width: 100%;
-    padding: 80px 0px;
+    padding: 70px 0px;
     background-color: var(--secondary);
     overflow: hidden;
     position: relative;
@@ -2253,10 +2249,9 @@ a{
 }
 .Testimonials .testimonials-area .testimonials-content .quote{
     float: right;
-    margin-top: 18px;
 }
 .Testimonials .testimonials-area .testimonials-content .quote .quote-item{
-    font-size: 18px;
+    font-size: 60px;
     color:#ffe9de;
 }
 .Testimonials .testimonials-area .testimonials-content .single-list ul{
