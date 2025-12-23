@@ -383,6 +383,11 @@
         top: -497px;
         left: -296px;
     }
+    .banner .carousel-inner .carousel-item .slider .slider-content {
+        position: absolute;
+        top: -457px;
+        left: 0px;
+    }
     /*End===*/
 }
 @media screen and (max-width: 1000px) {
@@ -403,6 +408,14 @@
         top: -148px;
         left: 615px;
         transform: rotate(-2deg);
+    }
+    .Work-Prosse .data-analysis .sub-analysis::after{
+        width: 76%;
+    }
+    .banner .carousel-inner .carousel-item .slider .slider-content {
+        position: absolute;
+        top: -457px;
+        left: 0px;
     }
     /*End=====*/
 }
@@ -437,12 +450,448 @@
         height: 130px;
     }
     .Work-Prosse .data-analysis .subs-text a {
-        font-size: 12px;
+        font-size: 14px;
+    }
+    .Work-Prosse .data-analysis .subs-text {
+        padding: 0px 0px;
+    }
+    .contacts .sub-contacts h4{
+        font-size: 20px;
+    }
+    .contacts .sub-contacts .single-text p{
+        font-size: 14px;
+    }
+    .contacts .sub-contacts{
+        padding: 29px 63px 26px 50px;
+    }
+    .contacts .sub-contacts{
+        top: -63px;
+    }
+    .contacts .sub-contacts .single-text p::after{
+        left: 132px;
+    }
+    .contacts .sub-contacts .call-us .call-btn{
+        top: -64px;
+    }
+    .contacts .sub-contacts .call-us .call-btn{
+        width: 60px;
+        height: 60px;
+    }
+    .Our-experience .exprence-group .img-box img{
+        display: flex;
+        margin: 0 auto;
+    }
+    .Our-experience .exprence-group .imgbox-2 img{
+        right: -280px;
+        top: 371px;
+        width: 200px;
+        height: 200px;
+    }
+    .Our-experience .title p{
+        margin-top: 104px;
+    }
+    .Our-experience .exprence-group .img-box .lines{
+        left: 42px;
+    }
+    .choose-us .title p{
+        margin-top: 105px;
+    }
+    .choose-us .img-box .underlines{
+        left: 98px;
+    }
+    .choose-us .img-box a img{
+        width: 442px;
+    }
+    .choose-us .img-box .side-left-title .sub-bussniess{
+        top: 148px;
+        left: -100px;
+    }
+    .choose-us .img-box .main-outer{
+       right: 105px; 
+    }
+    .choose-us .choose-shape-three img {
+        left: 668px;
+    }
+    .media .overlay{
+        height: 100%;
+    }
+    .media .shape-img img{
+        top: -443px;
+    }
+    .about .img-box{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .about .about-play .img-box {
+        margin-left: 140px;
+        margin-top: 51px;
+    }
+    .about .about-progress{
+        margin-left: 66px;
+        margin-top: -44px;
+    }
+    .about .title p{
+        margin-top: 86px;
+    }
+    .about .shape-ts{
+        left: 169px;
+    }
+    .about .img-box .text {
+        top: 119px;
+        left: 471px;
+    }
+    .about .img-box .text{
+        width: 35%;
+    }
+    .feature .feature-item{
+        margin-bottom: 53px;
+    }
+    .banner .shape img{
+        transform: rotate(-17deg);
+        left: -34px;
+        width: 200px;
+        height: 200px;
+        top: -29px;
+    }
+    .banner .shape .slider-shape {
+        position: absolute;
+        top: 224px;
+        right: -142px;
+        transform: rotate(6deg);
+        width: 350px;
+        height: 350px;
+        left: 78%;
+    }
+    .carousel-control-prev {
+        top: 137px;
+    }
+    .carousel-control-next {
+        right: 19%;
+        top: 49%;
+    }
+    .banner .slider-content .title h1{
+        width: 80%;
+        font-size: 30px;
+    }
+    .banner .slider-content .single-title p {
+        font-size: 13px;
+    }
+    .banner .slider-content .title p {
+        margin-top: 180px;
+    }
+    .counters .text h3::before {
+       display: none; 
+    }
+    .Testimonials .title p::after{
+        left: 53%;
+    }
+    .Testimonials .title p::before{
+        left: 43%;
+    }
+    .Work-Prosse h4::after{
+        left: 51%;
+    }
+    .Work-Prosse h4::before{
+        left: 44%;
     }
     /*End=====*/
 }
-
+@media screen and (max-width: 860px){
+    .carousel-control-next {
+        right: 18.5%;
+        top: 57%;
+    }
+}
+@media screen and (max-width: 768px){
+    .counters .text{
+        margin-bottom: 40px;
+    }
+    .counters .text p{
+        text-align: center;
+    }
+    .counters .text h3{
+        text-align: center;
+    }
+    .counters .shape img{
+        left: 88px;
+        top: -81px;
+    }
+    .Testimonials .title p::before{
+        left: 41%;
+    }
+    .Our-experience .title p::after{
+        left: 10%;
+    }
+    .Work-Prosse h4::before{
+        left: 41%;
+    }
+    .Work-Prosse .data-analysis .sub-analysis::after{
+        width: 76%;
+    }
+    .choose-us .choose-shape-three img {
+        left: 580px;
+    }
+    .banner .carousel-inner .carousel-item .slider .slider-content {
+        position: absolute;
+        top: -375px;
+        left: 0px;
+    }
+    .banner .slider-content .slider-btn-area ul{
+        margin-top: 0px;
+    }
+    .banner .slider-content .slider-btn-area ul li .play-btn {
+        width: 40px;
+        height: 40px
+    }
+    .banner .shape .slider-shape {
+        position: absolute;
+        top: 107px;
+        right: 49px;
+        transform: rotate(-1deg);
+        width: 350px;
+        height: 350px;
+        left: 75%;
+    }
+    .banner .shape img{
+        left: -47px;
+    }
+    .carousel-control-next {
+       right: 18%;
+       top: 63%;
+    }
+    .about .progress{
+        width: 190px;
+        height: 8px;
+    }
+    .about .about-progress {
+        margin-left: 15px;
+        margin-top: -44px;
+    }
+    .service .shape-img img {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        top: -52px;
+        left: -100px;
+        transform: rotate(59deg);
+    }
+    .choose-us .img-box .main-outer {
+        right: 13px;
+    }
+    .Our-experience .exprence-group .imgbox-2 img {
+        right: -205px;
+    }
+    .Our-experience .exprence-group .img-box .lines {
+        left: 25px;
+    }
+    .copy-right .fotter_menu .fotter-nav ul li a{
+        font-size: 14px;
+    }
+    .copy-right .brands-text {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .copy-right .fotter_menu .fotter-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        padding-left: 25%;
+        padding-top: 10px;
+    }
+    .contacts .sub-contacts .call-us .call-btn{
+        right: 0px;
+    }
+    .Our-experience .shape img{
+        left: 383px;
+    }
+    .Our-blog .title p::before{
+        left: 44%;
+    }
+    .Our-blog .title p::after{
+        left: 53%;
+    }
+    .service .card-box .content .logo-img {
+        top: 50%;
+    }
+    .Our-blog .single-bolg .content .date p {
+        left: 76%;
+        top: -115px;
+    }
+    .media .video-btn .plays-btn {
+        width: 90px;
+        height: 90px;
+    }
+    .media .video-btn .plays-btn::after {
+        top: 5px;
+        left: 6px;
+    }
+    .media .video-btn .media-playbtn{
+        width: 30px;
+        height: 36px;
+        margin-left: 8px;
+    }
+    .about .img-box .text {
+        top: 128px;
+        left: 382px;
+    }
+    .about .img-box .text {
+        width: 50%;
+    }
+    .banner .slider-content .single-title p {
+        display: none;
+    }
+        
+}
+@media screen and (max-width: 650px){
+    .banner .shape img {
+        left: -62px;
+    }
+    .banner .shape .slider-shape{
+        top: 52px;
+    }
+    .banner .slider-content .title h1{
+        font-size: 25px;
+    }
+    .banner .slider-content .title p{
+        font-size: 16px;
+    }
+    .carousel-control-prev{
+        top: 75px;
+        left: 72%;
+    }
+    .carousel-control-next {
+        right: 128px;
+        top: 136px;
+    }
+    .banner .carousel-inner .carousel-item .slider .slider-content {
+        position: absolute;
+        top: -363px;
+        left: 0px;
+    }
+    .carousel-control-next {
+        right: 20%;
+        top: 49%;
+    }
+    .choose-us .choose-shape-three img{
+        left: 79%;
+    }
+}
+@media screen and (max-width: 550px){
+    .banner .slider-content .slider-btn-area ul li .btns{
+        padding: 7px 12px;
+        font-size: 14px;
+    }
+    .banner .shape img {
+        transform: rotate(-17deg);
+        left: -34px;
+        width: 130px;
+        height: 134px;
+        top: -23px;
+    }
+    .carousel-control-next{
+        width: 40px;
+        height: 40px;
+    }
+    .carousel-control-prev{
+        width: 40px;
+        height: 40px;
+        top: 73px;
+        left: 72%; 
+    }
+    .banner .slider-content .slider-btn-area ul li .text{
+        font-size: 14px;
+    }
+    .banner .slider-content .slider-btn-area ul li{
+        margin: 0px 12px;
+    }
+    .Our-experience .exprence-group .img-box img{
+        width: 70%;
+        height: 450px;
+    }
+    .Our-experience .exprence-group .imgbox-2 img {
+        right: -67px;
+        top: 336px;
+        height: 160px;
+        width: 180px;
+    }
+    .Our-experience .shape-to img{
+        left: 63px;
+        width: 180px;
+        height: 180px;
+    }
+    .Our-experience .shape img{
+        width: 180px;
+        height: 180px;
+        left: 310px;
+    }
+    .Our-experience .exprence-group .img-box .lines {
+        left: 49px;
+        top: 212px;
+    }
+    .choose-us .img-box a img {
+        width: 390px;
+    }
+    .choose-us .shape-two img{
+        width: 180px;
+        height: 180px;
+        left: 42px;
+    }
+    .choose-us .img-box .underlines {
+        left: 7%;
+    }
+    .choose-us .img-box .main-outer{
+        right: 9%;
+    }
+    .choose-us .img-box .side-left-title .sub-bussniess {
+        top: 129px;
+        left: -114px;
+    }
+    .about .about-progress {
+        width: 215px;
+        height: 170px;
+    }
+    .about .progress {
+        width: 155px;
+        height: 8px;
+    }
+    .about .progress-title{
+        font-size: 15px;
+    }
+    .about #progress-titlest{
+        font-size:  15px;
+        padding-top: 8px;
+    }
+    .about .img-box img{
+        width: 65%;
+    }
+    .about #progress-item {
+        margin-left: 29px;
+    }
+    .about .about-progress {
+        margin-left: 39px;
+        margin-top: -44px;
+    }
+    .about .about-play .img-box{
+        margin-left: 98px;
+    }
+    .about .img-box .text {
+        width: 37%;
+    }
+    .about .img-box .text {
+        top: 93px;
+        left: 372px;
+    }
+}
 /*navbar section for*/
+@media (min-width: 768px) and (max-width: 930px) {
+    .choose-us .choose-shape-three img {
+      left: 534px;
+    }
+}
 @media (min-width: 768px) and (max-width: 991.98px) { 
     /***** footer start *****/
     .footer .footer-top .footer-widget.mt25{

@@ -1,11 +1,11 @@
 $('.brand-carousel').owlCarousel({
-    rtl:true,
-    loop:true,
-    margin:0,
-    autoplay:true,
-    autoplayTimeout:1500,
-    autoplayHoverPause:true,
-    nav:true,
+    rtl: true,
+    loop: true,
+    margin: 0,
+    autoplay: true,
+    autoplayTimeout: 1500,
+    autoplayHoverPause: true,
+    nav: true,
     responsive:{
         0:{
             items:2

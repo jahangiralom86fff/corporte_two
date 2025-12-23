@@ -4,13 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Toko-Blog Page</title>
-        <link rel="shortcut icon" href="assets/images/home-page/marketing-home.png" type="image/x-icon">
+        <link rel="shortcut icon" href="assets/images/home-page/favicon-icon-img.png" type="image/x-icon">
         <!--fontawesome link-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!--bootstrap link-->
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
         <!--fancybox link-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+        <!--wow cs link-->
+        <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+        <!--wow cs End-->
         <!--navbar start-->
         <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/meanmenu.min.css">
@@ -64,7 +68,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-2">
                             <div class="logo">
-                                <a href="#">
+                                <a href="home.html">
                                     <img src="assets/images/home-page/home-logo.png" alt="logo">
                                 </a>
                             </div>
@@ -216,7 +220,7 @@
             <div class="shape-right">
                 <img src="assets/images/About/shape-bottom.png" alt="shad">
             </div>
-            <div class="container">
+            <div class="container wow fadeInDown"  data-wow-delay="600ms" data-wow-duration="2s"  animation-duration="2s" animation-delay="600ms" animation-name="fadeInRight">
                 <div class="title">
                     <p>Blog</p>
                 </div>
@@ -236,7 +240,7 @@
                             </a>
                             <div class="content">
                                 <div class="title">
-                                    <p>Our colorations With company</p>
+                                    <a href="#" class="desc-title">Our colorations With company</a>
                                 </div>
                                 <div class="single-title">
                                     <p>Cras quis tempus diam. In vel orci id sem pretium commodo. Proin a sem ut dui semper ultricies.
@@ -247,7 +251,7 @@
                                 </div>
                                 <div class="contact">
                                     <ul>
-                                        <li><a href="#" class="learn-more">learn more</a></li>
+                                        <li><a href="blog-details.html" class="learn-more">learn more</a></li>
                                         <li>August 1, 2022</li>
                                         <li><a href="#">Web Development</a></li>
                                     </ul>
@@ -260,7 +264,7 @@
                             </a>
                             <div class="content">
                                 <div class="title">
-                                    <p>Our colorations With company</p>
+                                    <a href="#" class="desc-title">Our colorations With company</a>
                                 </div>
                                 <div class="single-title">
                                     <p>Cras quis tempus diam. In vel orci id sem pretium commodo. Proin a sem ut dui semper ultricies.
@@ -271,7 +275,7 @@
                                 </div>
                                 <div class="contact">
                                     <ul>
-                                        <li><a href="#" class="learn-more">learn more</a></li>
+                                        <li><a href="blog-details.html" class="learn-more">learn more</a></li>
                                         <li>August 1, 2022</li>
                                         <li><a href="#">Web Development</a></li>
                                     </ul>
@@ -284,7 +288,7 @@
                             </a>
                             <div class="content">
                                 <div class="title">
-                                    <p>Our colorations With company</p>
+                                    <a href="#" class="desc-title">Our colorations With company</a>
                                 </div>
                                 <div class="single-title">
                                     <p>Cras quis tempus diam. In vel orci id sem pretium commodo. Proin a sem ut dui semper ultricies.
@@ -295,7 +299,7 @@
                                 </div>
                                 <div class="contact">
                                     <ul>
-                                        <li><a href="#" class="learn-more">learn more</a></li>
+                                        <li><a href="blog-details.html" class="learn-more">learn more</a></li>
                                         <li>August 1, 2022</li>
                                         <li><a href="#">Web Development</a></li>
                                     </ul>
@@ -333,6 +337,8 @@
                                         <p>Popular Post</p>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="row">
                                 <div class="col-sm-3 col-md-2 col-lg-4">
                                     <a href="#" class="imgbox">
                                         <img src="assets/images/blog/popular-img.png" class="img-fluid" alt="img">
@@ -344,6 +350,8 @@
                                     </a>
                                     <p class="time">August 5, 2023</p>
                                 </div>
+                            </div>
+                            <div class="row">
                                 <div class="pt-4 col-sm-3 col-md-2 col-lg-4">
                                     <a href="#" class="imgbox">
                                         <img src="assets/images/blog/popular-2.png" class="img-fluid" alt="img">
@@ -355,6 +363,8 @@
                                     </a>
                                     <p class="time">August 8, 2024</p>
                                 </div>
+                            </div>
+                            <div class="row">
                                 <div class="pt-4 col-sm-3 col-md-2 col-lg-4">
                                     <a href="#" class="imgbox">
                                         <img src="assets/images/blog/popurlar-3.png" class="img-fluid" alt="img">
@@ -509,15 +519,15 @@
                         <div class="contacts-info">
                             <ul>
                                 <li>
-                                    <span class="email-icon"><i class="fa-solid fa-phone"></i></span>
+                                    <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
                                     (232) 456-7890
                                 </li>
                                 <li>
-                                    <span class="twitter"><i class="fa-solid fa-envelope-open"></i></span>
+                                    <span class="contact-icon"><i class="fa-solid fa-envelope-open"></i></span>
                                     info@example.com
                                 </li>
                                 <li>
-                                    <span class="location-icon"><i class="fa-solid fa-location-dot"></i></span>
+                                    <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
                                     6391 Elgin St. Celina,
                                     Delaware New York. USA
                                 </li>
@@ -544,8 +554,8 @@
                             <ul class="fotter-nav">
                                 <ul>
                                     <li><a href="#">Teams & Condition</a></li>
-                                    <li><a href="#">. Services</a></li>
-                                    <li><a href="#">. Careers</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Careers</a></li>
                                 </ul>
                             </ul>
                         </div>
@@ -571,6 +581,11 @@
         <script src="assets/js/owl.carousel.min.js"></script>
         <script src="assets/js/corusels.js"></script>
         <!--owl crousel-->
+        <!--wow js start-->
+        <script src="assets/js/all.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <!--wow js End-->
         <!--progress bar start-->
         <script src="assets/js/progress-bar.js"></script>
         <!--End-->

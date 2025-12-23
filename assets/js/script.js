@@ -1,3 +1,6 @@
+//  wow js start
+new WOW().init();
+
 // Isotope filter
 var $grid = $('.filter-layout').isotope({
     // options
@@ -20,5 +23,4 @@ const myInput = document.getElementById('myInput')
 myModal.addEventListener('shown.bs.modal', () => {
   myInput.focus()
 })
-
 
