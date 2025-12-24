@@ -2742,3 +2742,39 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
 }
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+@keyframes circle-ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 84, 33, 0.3), 0 0 0 1em rgba(255, 84, 33, 0.3), 0 0 0 3em rgba(255, 84, 33, 0.3), 0 0 0 5em rgba(255, 84, 33, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 1em rgba(255, 84, 33, 0.3), 0 0 0 3em rgba(255, 84, 33, 0.3), 0 0 0 5em rgba(255, 84, 33, 0.3), 0 0 0 8em rgba(255, 84, 33, 0);
+  }
+}
+@-webkit-keyframes circle-ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 84, 33, 0.3), 0 0 0 1em rgba(255, 84, 33, 0.3), 0 0 0 3em rgba(255, 84, 33, 0.3), 0 0 0 5em rgba(255, 84, 33, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 1em rgba(255, 84, 33, 0.3), 0 0 0 3em rgba(255, 84, 33, 0.3), 0 0 0 5em rgba(255, 84, 33, 0.3), 0 0 0 8em rgba(255, 84, 33, 0);
+  }
+}

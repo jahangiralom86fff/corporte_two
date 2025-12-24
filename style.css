@@ -86,7 +86,7 @@ a{
     font-size: 15px;
     font-family: var(--primary-font);
     position: relative;
-    transition: all 500 ms ease;
+    transition: all 500ms ease;
 }
 .topbar .topbar-menu ul li a:hover{
     color: var(--secondary);
@@ -1354,12 +1354,12 @@ a{
     border-radius: 50%;
     animation: pulse-border 3s ease infinite;
 }
-@keyframes pulse-border{
+@keyframes  pulse-border{
     0%{
         transform: scale(1);
     }
     70%{
-        transform: scale(1,1);
+        transform: scale(1);
         box-shadow: 0 0 0 25px rgba(255,255,255,0.2);
     }
     100%{
@@ -4613,7 +4613,7 @@ a{
 .our-pricing .single-pricing .popular-text h6{
     position: absolute;
     color:#d8591b;
-    font-family: var(--fs-size);
+    font-family: var(--primary-font);
     font-size: 14px;
     text-transform: capitalize;
     top: -92px;
@@ -4667,9 +4667,9 @@ a{
 .our-pricing .single-pricing .pricing-item ul li{
     list-style-type: none;
     margin-bottom: 20px;
-    font-family: var(--fs-size);
+    font-family: var(--primary-font);
     font-size: var(--fs-size);
-       color: var(--primary-color);
+    color: var(--primary-color);
     font-weight: 500;
     text-transform: capitalize;
     position: relative;
@@ -5186,7 +5186,7 @@ a{
     font-weight: bold;
     text-transform: capitalize;
     transition: all 500ms ease;
-};
+}
 .Services-details .card-box .content .title-text:hover{
     color: var(--secondary);
 }

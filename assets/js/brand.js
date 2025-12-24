@@ -35,18 +35,3 @@ document.querySelectorAll('.Our-blog .single-bolg').forEach(function(card) {
         card.style.transform = 'translateY(0)';
     });
 });
-
-const cards = document.querySelectorAll('.our-pricing .single-pricing');
-
-cards.forEach(card => {
-    card.addEventListener('mouseenter', () => {
-        card.style.transform = 'translateY(20px)';
-        card.style.transition = '0.3s';
-    });
-
-    card.addEventListener('mouseleave', () => {
-        card.style.transform = 'translateY(0)';
-        card.style.transition = '0.3s';
-        
-    });
-});
