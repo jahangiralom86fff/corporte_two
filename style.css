@@ -18,6 +18,12 @@
 a{
     text-decoration: none;
 }
+[class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after {
+  font-family: Flaticon;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: 0px;
+}
 
 /*topbar section start now*/
 .topbar{
@@ -2768,10 +2774,11 @@ a{
     font-size: 18px;
     color: var(--secondary);
     top:1px;
-    left: -40px;
+    left: -43px;
     width: 40px;
     text-align: center;
     transition: all 500ms ease-in-out;
+    line-height: 24px;
 }
 .fotter .contacts-info ul li:hover .contact-icon{
     color: var(--secondary);
