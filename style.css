@@ -5920,6 +5920,23 @@ a{
 .copy-right .fotter_menu .fotter-nav  li:first-child a::after{
     display: none;
 }
+
+/*preloder start now*/
+.preloder{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1244;
+    background-color: var(--secondary);
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*preloder End*/
 #scrollUp {
     width: 60px;
     height: 60px;

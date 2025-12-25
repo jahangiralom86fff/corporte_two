@@ -132,6 +132,126 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
+/*preloader meri*/
+.preloder .preloder-1{
+    width: 4px;
+    height: 20px;
+    margin: 8px;
+    background-color: var(--color);
+    animation: preloder-1 600ms ease  infinite; 
+}
+.preloder .preloder-2{
+    width: 4px;
+    height: 70px;
+    margin: 8px;
+    background-color: var(--color); 
+    animation: preloder-2 800ms ease  infinite;
+}
+.preloder .preloder-3{
+    width: 4px;
+    margin: 8px;
+    background-color: var(--color);
+    animation: preloder-2 900ms ease  infinite; 
+}
+.preloder .preloder-4{
+    width: 4px;
+    height: 0px;
+    margin: 8px;
+    background-color: var(--color);
+    animation: preloder-3 1s ease  infinite;
+}
+.preloder .preloder-5{
+    width: 4px;
+    height: 0px;
+    margin: 8px;
+    background-color: var(--color);
+    animation: preloder-4 1.1s ease  infinite;
+}
+.preloder .preloder-6{
+    width: 4px;
+    height: 0px;
+    margin: 8px;
+    background-color: var(--color);
+    animation: preloder-5 1.2s ease  infinite;
+}
+.preloder .preloder-7{
+    width: 4px;
+    height: 6px;
+    margin: 8px;
+    background-color: var(--color);
+    animation: preloder-6 1.5s ease  infinite;
+}
+.preloder .preloder-8{
+    width: 4px;
+    height: 6px;
+    margin: 8px;
+    background-color: var(--color);
+    animation: preloder-7 1.8s ease  infinite;
+}
+@keyframes preloder-1 {
+    0%{
+        height: 120px;
+    }
+    100%{
+        height: 20px;
+    }
+    
+}
+@keyframes preloder-2 {
+    0%{
+        height: 130px;
+    }
+    100%{
+        height: 20px;
+    }
+    
+}
+@keyframes preloder-3 {
+    0%{
+        height: 140px;
+    }
+    100%{
+        height: 20px;
+    }
+    
+}
+@keyframes preloder-4 {
+    0%{
+        height: 150px;
+    }
+    100%{
+        height: 20px;
+    }
+    
+}
+@keyframes preloder-5 {
+    0%{
+        height: 160px;
+    }
+    100%{
+        height: 20px;
+    }
+    
+}
+@keyframes preloder-6 {
+    0%{
+        height: 170px;
+    }
+    100%{
+        height: 20px;
+    }
+    
+}
+@keyframes preloder-7 {
+    0%{
+        height: 180px;
+    }
+    100%{
+        height: 20px;
+    }
+    
+}
+/*preloder End*/
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;

@@ -19,3 +19,14 @@ function updateNavbar() {
 
 window.addEventListener("load", updateNavbar);
 window.addEventListener("scroll", updateNavbar);
+
+//preloder start now//
+window.addEventListener('load', () => {
+   let preloder = document.querySelector(".preloder");
+   if (preloder) {
+      setTimeout(() => {
+        preloder.style.display = "none";
+      }, 800);
+   }
+});
+//preloder start End//
